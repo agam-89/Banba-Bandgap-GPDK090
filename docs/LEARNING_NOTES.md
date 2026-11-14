@@ -20,9 +20,9 @@ This cancellation is not automatically perfect. Device models, the amplifier's e
 
 **Circuit detail.** The simplified final-reference equation is
 
-\[
+$$
 V_{ref}=R_0\left(\frac{V_a}{R_3}+\frac{\Delta V_f}{r_s}\right)
-\]
+$$
 
 Here `Va` is the voltage of the Q0 branch (`net27`), `R3` converts that voltage into one current, `ΔVf` is the PNP voltage difference, `rs` is the resistor that sets the PTAT current, and `R0` converts the combined current back into the output voltage.
 
@@ -34,9 +34,9 @@ The important design freedom is that **`rs` mainly adjusts the balance between t
 
 **Circuit detail.** The final cell uses `vpnp5` for both PNPs: `Q0` has `m=1` and `Q1` has `m=8`, giving **N = 8**. The difference is described by
 
-\[
+$$
 \Delta V_{EB}=V_T\ln(N)
-\]
+$$
 
 where `VT` is the thermal voltage. The context records about **53.8 mV at 27 °C** and a temperature slope of about **+0.18 mV/K** for `N = 8`.
 
@@ -54,15 +54,15 @@ The idea is not that the larger PNP somehow makes a fixed reference by itself. I
 
 The intended negative feedback brings `Va` and `Vb` close together. With equal branch currents and `R2 = R3`, the simplified current balance is
 
-\[
+$$
 I_{Q0}+\frac{V_a}{R_3}=\frac{V_b}{R_2}+\frac{\Delta V_f}{r_s}
-\]
+$$
 
 Using `Va = Vb` and `R2 = R3`, the resistor terms cancel, leaving
 
-\[
+$$
 I_{Q0}=\frac{\Delta V_f}{r_s}.
-\]
+$$
 
 So the shared PMOS current is the sum of a `Va/R3` contribution and a `ΔVf/rs` contribution. `PM3` copies that current into `R0`.
 
