@@ -40,17 +40,17 @@ The final Virtuoso cell is `BGR/banba_bgr_real_poly`.
 
 The two equal PMOS branch currents can be written as
 
-\[
+$$
 I_1 = I_{Q0} + \frac{V_a}{R_3},\qquad
 I_2 = \frac{V_b}{R_2} + \frac{\Delta V_f}{r_s}.
-\]
+$$
 
 With **R2 = R3**, **Va ≈ Vb**, and **I1 ≈ I2**, the PNP current contribution satisfies **IQ0 ≈ ΔVf/rs**. PM3 copies the branch current through the output resistor, so
 
-\[
+$$
 V_{ref} = R_0\left(\frac{V_a}{R_3}+\frac{\Delta V_f}{r_s}\right),
 \qquad \Delta V_f \approx V_T\ln(N).
-\]
+$$
 
 **Why these knobs matter:** **rs** adjusts the balance between the rising and falling temperature contributions, so it is tuned for low TC. **R0** scales the final output voltage toward **0.5 V**. Increasing all resistances while preserving ratios lowers the branch currents and therefore supply consumption; changing only R0 adjusts output scaling, but also changes PM3's drain voltage and can slightly affect TC.
 
