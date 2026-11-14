@@ -1,0 +1,157 @@
+// Generated for: spectre
+// Generated on: Nov 13 15:41:12 2026
+// Design library name: BGR
+// Design cell name: banba_bgr_real_poly
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/home/work/gpdk090_v4.6/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs" section=NN
+
+// Library name: gpdk090
+// Cell name: resnsnpoly
+// View name: schematic
+subckt resnsnpoly_pcell_0 B MINUS PLUS
+parameters segL=8u segW=1.5u
+    R19 (n19 MINUS B) gpdk090_resnsnpoly l=segL w=segW
+    R18 (n18 n19 B) gpdk090_resnsnpoly l=segL w=segW
+    R17 (n17 n18 B) gpdk090_resnsnpoly l=segL w=segW
+    R16 (n16 n17 B) gpdk090_resnsnpoly l=segL w=segW
+    R15 (n15 n16 B) gpdk090_resnsnpoly l=segL w=segW
+    R14 (n14 n15 B) gpdk090_resnsnpoly l=segL w=segW
+    R13 (n13 n14 B) gpdk090_resnsnpoly l=segL w=segW
+    R12 (n12 n13 B) gpdk090_resnsnpoly l=segL w=segW
+    R11 (n11 n12 B) gpdk090_resnsnpoly l=segL w=segW
+    R10 (n10 n11 B) gpdk090_resnsnpoly l=segL w=segW
+    R9 (n9 n10 B) gpdk090_resnsnpoly l=segL w=segW
+    R8 (n8 n9 B) gpdk090_resnsnpoly l=segL w=segW
+    R7 (n7 n8 B) gpdk090_resnsnpoly l=segL w=segW
+    R6 (n6 n7 B) gpdk090_resnsnpoly l=segL w=segW
+    R5 (n5 n6 B) gpdk090_resnsnpoly l=segL w=segW
+    R4 (n4 n5 B) gpdk090_resnsnpoly l=segL w=segW
+    R3 (n3 n4 B) gpdk090_resnsnpoly l=segL w=segW
+    R2 (n2 n3 B) gpdk090_resnsnpoly l=segL w=segW
+    R1 (n1 n2 B) gpdk090_resnsnpoly l=segL w=segW
+    R0 (PLUS n1 B) gpdk090_resnsnpoly l=segL w=segW
+ends resnsnpoly_pcell_0
+// End of subcircuit definition.
+
+// Library name: gpdk090
+// Cell name: resnsnpoly
+// View name: schematic
+subckt resnsnpoly_pcell_1 B MINUS PLUS
+parameters segL=8u segW=1.5u
+    R4 (n4 MINUS B) gpdk090_resnsnpoly l=segL w=segW
+    R3 (n3 n4 B) gpdk090_resnsnpoly l=segL w=segW
+    R2 (n2 n3 B) gpdk090_resnsnpoly l=segL w=segW
+    R1 (n1 n2 B) gpdk090_resnsnpoly l=segL w=segW
+    R0 (PLUS n1 B) gpdk090_resnsnpoly l=segL w=segW
+ends resnsnpoly_pcell_1
+// End of subcircuit definition.
+
+// Library name: gpdk090
+// Cell name: resnsnpoly
+// View name: schematic
+subckt resnsnpoly_pcell_2 B MINUS PLUS
+parameters segL=8u segW=1.5u
+    R44 (n44 MINUS B) gpdk090_resnsnpoly l=segL w=segW
+    R43 (n43 n44 B) gpdk090_resnsnpoly l=segL w=segW
+    R42 (n42 n43 B) gpdk090_resnsnpoly l=segL w=segW
+    R41 (n41 n42 B) gpdk090_resnsnpoly l=segL w=segW
+    R40 (n40 n41 B) gpdk090_resnsnpoly l=segL w=segW
+    R39 (n39 n40 B) gpdk090_resnsnpoly l=segL w=segW
+    R38 (n38 n39 B) gpdk090_resnsnpoly l=segL w=segW
+    R37 (n37 n38 B) gpdk090_resnsnpoly l=segL w=segW
+    R36 (n36 n37 B) gpdk090_resnsnpoly l=segL w=segW
+    R35 (n35 n36 B) gpdk090_resnsnpoly l=segL w=segW
+    R34 (n34 n35 B) gpdk090_resnsnpoly l=segL w=segW
+    R33 (n33 n34 B) gpdk090_resnsnpoly l=segL w=segW
+    R32 (n32 n33 B) gpdk090_resnsnpoly l=segL w=segW
+    R31 (n31 n32 B) gpdk090_resnsnpoly l=segL w=segW
+    R30 (n30 n31 B) gpdk090_resnsnpoly l=segL w=segW
+    R29 (n29 n30 B) gpdk090_resnsnpoly l=segL w=segW
+    R28 (n28 n29 B) gpdk090_resnsnpoly l=segL w=segW
+    R27 (n27 n28 B) gpdk090_resnsnpoly l=segL w=segW
+    R26 (n26 n27 B) gpdk090_resnsnpoly l=segL w=segW
+    R25 (n25 n26 B) gpdk090_resnsnpoly l=segL w=segW
+    R24 (n24 n25 B) gpdk090_resnsnpoly l=segL w=segW
+    R23 (n23 n24 B) gpdk090_resnsnpoly l=segL w=segW
+    R22 (n22 n23 B) gpdk090_resnsnpoly l=segL w=segW
+    R21 (n21 n22 B) gpdk090_resnsnpoly l=segL w=segW
+    R20 (n20 n21 B) gpdk090_resnsnpoly l=segL w=segW
+    R19 (n19 n20 B) gpdk090_resnsnpoly l=segL w=segW
+    R18 (n18 n19 B) gpdk090_resnsnpoly l=segL w=segW
+    R17 (n17 n18 B) gpdk090_resnsnpoly l=segL w=segW
+    R16 (n16 n17 B) gpdk090_resnsnpoly l=segL w=segW
+    R15 (n15 n16 B) gpdk090_resnsnpoly l=segL w=segW
+    R14 (n14 n15 B) gpdk090_resnsnpoly l=segL w=segW
+    R13 (n13 n14 B) gpdk090_resnsnpoly l=segL w=segW
+    R12 (n12 n13 B) gpdk090_resnsnpoly l=segL w=segW
+    R11 (n11 n12 B) gpdk090_resnsnpoly l=segL w=segW
+    R10 (n10 n11 B) gpdk090_resnsnpoly l=segL w=segW
+    R9 (n9 n10 B) gpdk090_resnsnpoly l=segL w=segW
+    R8 (n8 n9 B) gpdk090_resnsnpoly l=segL w=segW
+    R7 (n7 n8 B) gpdk090_resnsnpoly l=segL w=segW
+    R6 (n6 n7 B) gpdk090_resnsnpoly l=segL w=segW
+    R5 (n5 n6 B) gpdk090_resnsnpoly l=segL w=segW
+    R4 (n4 n5 B) gpdk090_resnsnpoly l=segL w=segW
+    R3 (n3 n4 B) gpdk090_resnsnpoly l=segL w=segW
+    R2 (n2 n3 B) gpdk090_resnsnpoly l=segL w=segW
+    R1 (n1 n2 B) gpdk090_resnsnpoly l=segL w=segW
+    R0 (PLUS n1 B) gpdk090_resnsnpoly l=segL w=segW
+ends resnsnpoly_pcell_2
+// End of subcircuit definition.
+
+// Library name: BGR
+// Cell name: banba_bgr_real_poly
+// View name: schematic
+PM0 (net11 net024 net23 net23) gpdk090_pmos1v w=(6u) l=1u as=1.68p \
+        ad=1.68p ps=12.56u pd=12.56u m=(1)*(1) simM=(1)*(1)
+PM3 (Vref net024 net23 net23) gpdk090_pmos1v w=(10u) l=1u as=2.8p ad=2.8p \
+        ps=20.56u pd=20.56u m=(1)*(1) simM=(1)*(1)
+PM1 (net27 net024 net23 net23) gpdk090_pmos1v w=(10u) l=1u as=2.8p ad=2.8p \
+        ps=20.56u pd=20.56u m=(1)*(1) simM=(1)*(1)
+PM8 (net7 net7 net23 net23) gpdk090_pmos1v w=(4u) l=1u as=1.12p ad=1.12p \
+        ps=8.56u pd=8.56u m=(1)*(1) simM=(1)*(1)
+PM7 (net22 net7 net23 net23) gpdk090_pmos1v w=(4u) l=1u as=1.12p ad=1.12p \
+        ps=8.56u pd=8.56u m=(1)*(1) simM=(1)*(1)
+PM2 (net14 net024 net23 net23) gpdk090_pmos1v w=(10u) l=1u as=2.8p ad=2.8p \
+        ps=20.56u pd=20.56u m=(1)*(1) simM=(1)*(1)
+RS (net23 net033) resistor r=2M
+R5 (0 0 Vref) resnsnpoly_pcell_0 segL=92.2u segW=1u
+R4 (0 net35 net14) resnsnpoly_pcell_1 segL=81.2u segW=1u
+R3 (0 0 net27) resnsnpoly_pcell_2 segL=100u segW=1u
+R2 (0 0 net14) resnsnpoly_pcell_2 segL=100u segW=1u
+NS (net033 Vref 0 0) gpdk090_nmos1v w=(1u) l=1u as=280f ad=280f ps=2.56u \
+        pd=2.56u m=(1)*(1) simM=(1)*(1)
+NM2 (net024 net033 0 0) gpdk090_nmos1v w=(1u) l=1u as=280f ad=280f \
+        ps=2.56u pd=2.56u m=(1)*(1) simM=(1)*(1)
+NM1 (net6 net11 0 0) gpdk090_nmos1v w=(2u) l=1u as=560f ad=560f ps=4.56u \
+        pd=4.56u m=(1)*(1) simM=(1)*(1)
+NM0 (net11 net11 0 0) gpdk090_nmos1v w=(2u) l=1u as=560f ad=560f ps=4.56u \
+        pd=4.56u m=(1)*(1) simM=(1)*(1)
+NM4 (net22 net27 net6 0) gpdk090_nmos1v w=(10u) l=1u as=2.8p ad=2.8p \
+        ps=20.56u pd=20.56u m=(1)*(1) simM=(1)*(1)
+NM3 (net7 net14 net6 0) gpdk090_nmos1v w=(10u) l=1u as=2.8p ad=2.8p \
+        ps=20.56u pd=20.56u m=(1)*(1) simM=(1)*(1)
+Q1 (0 0 net35 ) gpdk090_vpnp5 area=25.0 m=8
+Q0 (0 0 net27 ) gpdk090_vpnp5 area=25.0 m=1
+C1 (net23 net024) capacitor c=1p
+C0 (net27 0) capacitor c=1p
+IPRB0 (net024 net22) iprobe
+V0 (net23 0) vsource dc=1 type=pulse val0=0 val1=1 period=2 delay=10u \
+        rise=100u fall=1n width=1
+simulatorOptions options reltol=1e-6 vabstol=1e-6 iabstol=1e-12 temp=125.0 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+tran tran stop=500u errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save V0:p 
+saveOptions options save=allpub
