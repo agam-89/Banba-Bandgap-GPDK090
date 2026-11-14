@@ -151,6 +151,8 @@ The supply current at **0.9 / 1.0 / 1.1 V** was **11.8662 / 11.912 / 11.9607 µA
 
 ![Vref supply sweep, supply current and line regulation ADE values](results/supply_sweep/supply_sweep_vref.png)
 
+The ADE row `TC = 930.877` comes from a supply-voltage sweep, so it is not a valid temperature coefficient measurement.
+
 ### Power-supply rejection
 
 At **27 °C, 1.0 V, NN**, the **AC PSRR** measurement was **57.4149 dB at 10 Hz**, **57.4124 dB at 1 kHz** and **48.8153 dB at 100 kHz**. It stayed above **40 dB** only until **250.693 kHz**; it was **29.0121 dB at 10 MHz**. The unexplained high-frequency bump seen in the plot is **a plot observation, not a diagnosed mechanism**.
